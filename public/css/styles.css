@@ -274,6 +274,20 @@ ul {
     margin-left: 30px;
 }
 
+.profile_picture{
+	width: 220px;
+	height: 280px;
+	margin:10px;
+	background: url("../images/IMG_8165.jpg") 100% /210px no-repeat;
+}
+
+.profile_picture:hover{
+	width: 220px;
+	height: 280px;
+	margin:10px;
+	background: url("../images/IMG_0167.jpg") 100% /220px no-repeat;
+}
+
 .hello_content,
 .contact_details_content {
 	margin-top: 25px;
