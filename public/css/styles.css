@@ -112,6 +112,7 @@ h1,h2,h3, h4 {
 	}
 	h3 {
 		font-size: 24px;
+		margin: 20px 0
 	}
 	h4 {
 		font-size: 18px;
@@ -139,7 +140,7 @@ a:focus {
 ul {
     list-style: none;
     padding:0;
-    margin:0;
+	margin-bottom: 16;
 }
 	li { 
 		padding-left: 1em; 
@@ -350,8 +351,6 @@ ul {
 	    padding: 16px 0 0;
         top: -4px;
         bottom: 10px;
-	    border-top: 1px solid #403F44;
-	    border-bottom: 1px solid #403F44;
 	}
 	.send_message_button:hover,
 	.special_button:hover {
@@ -426,3 +425,12 @@ ul {
 		float: left;
 		padding-left: 40px;
 	}
+
+.nutri-ai {
+	margin: 0;
+	display: inline-block;
+}
+
+.project-button {
+	float: right;
+}
