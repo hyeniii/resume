@@ -24,6 +24,11 @@ app.get("/projects", function(req,res){
   res.render("projects");
 });
 
+app.get("/resume", function(req,res){
+  const filePath = `${__dirname}/public/pdf/hyewon-hwang-resume.pdf`;
+  res.download(filePath);
+});
+
 let port = process.env.PORT;
 if (port == null || port == "") {
   port = 3000;
